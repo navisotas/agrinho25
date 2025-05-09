@@ -1,82 +1,77 @@
-</style>
 </head>
 <body>
 
     <header>
-        <h1>A Essencial Conexão entre o Campo e a Cidade</h1>
-        <p>Uma simbiose para o desenvolvimento e bem-estar de todos.</p>
+        <h1>Celebração da Conexão Campo-Cidade</h1>
+        <p>Um encontro de culturas, sabores e oportunidades.</p>
     </header>
 
     <nav>
-        <a href="#importancia">Importância</a>
-        <a href="#trocas">Trocas e Benefícios</a>
-        <a href="#desafios">Desafios e Soluções</a>
-        <a href="#futuro">O Futuro da Conexão</a>
+        <a href="#sobre">Sobre o Evento</a>
+        <a href="#programacao">Programação</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
     </nav>
 
     <div class="container">
-        <section id="importancia" class="section">
-            <h2>A Vital Importância da Conexão</h2>
-            <p>O campo e a cidade, embora distintos em suas paisagens e ritmos, são intrinsecamente ligados. A produção agrícola do campo sustenta a população urbana, enquanto a cidade oferece mercados, tecnologia e serviços essenciais para o desenvolvimento rural. Essa interdependência é crucial para a economia, a cultura e a qualidade de vida.</p>
-            <div class="grid-container">
-                <div class="card">
-                    <img src="https://via.placeholder.com/350/8FBC8F/FFFFFF?Text=Produção%20Agrícola" alt="Produção Agrícola">
-                    <h3>Produção Agrícola</h3>
-                    <p>Alimentos frescos e matérias-primas essenciais para a vida urbana.</p>
+        <section id="sobre" class="section">
+            <h2>Sobre a Celebração</h2>
+            <p>Este evento especial é dedicado a celebrar a rica e essencial conexão entre o campo e a cidade. Reconhecemos a importância mútua dessas duas esferas para o desenvolvimento social, econômico e cultural. Queremos promover um espaço de encontro, aprendizado e apreciação das contribuições de cada um.</p>
+            <p>Teremos atividades que destacam a produção agrícola, o artesanato local, a inovação tecnológica aplicada ao campo, a gastronomia que une ingredientes rurais e urbanos, e as trocas culturais que enriquecem nosso dia a dia.</p>
+        </section>
+
+        <section id="programacao" class="section">
+            <h2>Programação do Evento</h2>
+            <div class="eventos-grid">
+                <div class="evento-card">
+                    <h3>Feira de Produtos Locais</h3>
+                    <p>Explore uma variedade de produtos frescos do campo e artesanato da cidade.</p>
+                    <p><strong>Horário:</strong> Sábado, das 9h às 17h</p>
                 </div>
-                <div class="card">
-                    <img src="https://via.placeholder.com/350/4682B4/FFFFFF?Text=Mercado%20Urbano" alt="Mercado Urbano">
-                    <h3>Mercado Urbano</h3>
-                    <p>Ponto de distribuição e comercialização dos produtos do campo.</p>
+                <div class="evento-card">
+                    <h3>Oficinas Gastronômicas</h3>
+                    <p>Aprenda receitas deliciosas que combinam ingredientes do campo e da cidade.</p>
+                    <p><strong>Horário:</strong> Sábado e Domingo, horários variados</p>
                 </div>
-                <div class="card">
-                    <img src="https://via.placeholder.com/350/FFD700/000000?Text=Tecnologia%20e%20Inovação" alt="Tecnologia e Inovação">
-                    <h3>Tecnologia e Inovação</h3>
-                    <p>Desenvolvimentos urbanos que impulsionam a eficiência no campo.</p>
+                <div class="evento-card">
+                    <h3>Palestras e Debates</h3>
+                    <p>Discussões sobre a sustentabilidade na agricultura e o futuro das cidades.</p>
+                    <p><strong>Horário:</strong> Domingo, das 10h às 12h e das 14h às 16h</p>
+                </div>
+                <div class="evento-card">
+                    <h3>Apresentações Culturais</h3>
+                    <p>Música, dança e outras manifestações artísticas que celebram a união.</p>
+                    <p><strong>Horário:</strong> Sábado e Domingo, durante todo o dia</p>
                 </div>
             </div>
         </section>
 
-        <section id="trocas" class="section">
-            <h2>As Ricas Trocas e Seus Mútuos Benefícios</h2>
-            <p>A dinâmica entre o campo e a cidade gera uma série de trocas valiosas que beneficiam ambos os lados:</p>
-            <ul>
-                <li><strong>Do Campo para a Cidade:</strong> Fornecimento de alimentos, fibras, energia renovável, água e espaços para lazer e turismo rural.</li>
-                <li><strong>Da Cidade para o Campo:</strong> Oferta de serviços de saúde e educação, infraestrutura, tecnologia, crédito, informações de mercado e oportunidades de emprego não agrícola.</li>
-                <li><strong>Trocas Culturais:</strong> Intercâmbio de tradições, conhecimentos, gastronomia e estilos de vida, enriquecendo a diversidade cultural de ambos os ambientes.</li>
-            </ul>
+        <section id="galeria" class="section">
+            <h2>Galeria de Momentos</h2>
+            <p>Confira alguns registros de edições anteriores e do espírito da nossa celebração.</p>
+            <div class="galeria">
+                <img src="https://via.placeholder.com/300/8FBC8F/FFFFFF?Text=Campo" alt="Imagem do Campo">
+                <img src="https://via.placeholder.com/300/4682B4/FFFFFF?Text=Cidade" alt="Imagem da Cidade">
+                <img src="https://via.placeholder.com/300/2E8B57/FFFFFF?Text=Produtos%20Locais" alt="Produtos Locais">
+                <img src="https://via.placeholder.com/300/6495ED/FFFFFF?Text=Gastronomia" alt="Gastronomia">
+                <img src="https://via.placeholder.com/300/556B2F/FFFFFF?Text=Cultura" alt="Cultura">
+            </div>
         </section>
 
-        <section id="desafios" class="section">
-            <h2>Desafios a Serem Superados</h2>
-            <p>Apesar da importância da conexão, alguns desafios precisam ser enfrentados para fortalecer essa relação:</p>
+        <section id="contato" class="section">
+            <h2>Entre em Contato</h2>
+            <p>Para mais informações ou dúvidas, entre em contato conosco:</p>
             <ul>
-                <li>Infraestrutura de transporte e logística precária, dificultando o escoamento da produção.</li>
-                <li>Êxodo rural e envelhecimento da população no campo.</li>
-                <li>Concentração de renda e desigualdades sociais.</li>
-                <li>Impactos ambientais da produção agrícola intensiva.</li>
-                <li>Falta de diálogo e políticas públicas integradas.</li>
+                <li><strong>Email:</strong> contato@conexaocampocidade.com.br</li>
+                <li><strong>Telefone:</strong> (XX) XXXXX-XXXX</li>
+                <li><strong>Redes Sociais:</strong> <a href="#" target="_blank">Instagram</a> | <a href="#" target="_blank">Facebook</a></li>
             </ul>
-            <h3>Possíveis Soluções</h3>
-            <ul>
-                <li>Investimento em infraestrutura e logística eficientes.</li>
-                <li>Incentivo à permanência e ao desenvolvimento dos jovens no campo.</li>
-                <li>Promoção de práticas agrícolas sustentáveis e tecnologias limpas.</li>
-                <li>Criação de canais de diálogo e parcerias entre o campo e a cidade.</li>
-                <li>Implementação de políticas públicas que valorizem a integração rural-urbana.</li>
-            </ul>
-        </section>
-
-        <section id="futuro" class="section">
-            <h2>Rumo a um Futuro de Conexão Fortalecida</h2>
-            <p>O futuro da conexão entre o campo e a cidade reside na construção de uma relação mais equilibrada, sustentável e colaborativa. A valorização da produção local, o incentivo ao consumo consciente, a adoção de tecnologias inovadoras e a promoção de um diálogo aberto são passos essenciais para garantir um futuro próspero para ambos os ambientes.</p>
-            <p>Ao reconhecermos a interdependência vital entre o campo e a cidade, podemos trabalhar juntos para construir comunidades mais resilientes, economias mais justas e um futuro mais sustentável para todos.</p>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2025 Conexão Campo-Cidade</p>
+        <p>&copy; 2025 Celebração Campo-Cidade. Todos os direitos reservados.</p>
     </footer>
 
 </body>
-</html>
+</html>x

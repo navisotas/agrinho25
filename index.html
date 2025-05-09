@@ -3,35 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conexão Campo-Cidade</title>
+    <title>Festejando a Conexão Campo-Cidade</title>
     <style>
         body {
-            font-family: sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa; /* Um tom bem claro para dar leveza */
             color: #333;
+            line-height: 1.6;
         }
 
         header {
-            background-color: #5cb85c; /* Verde que remete ao campo */
+            background-color: #28a745; /* Verde vibrante, representando o campo */
             color: white;
-            padding: 1em 0;
+            padding: 2em 0;
             text-align: center;
+            margin-bottom: 2em;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #e9ecef;
         }
 
         nav {
-            background-color: #333;
+            background-color: #343a40; /* Tom escuro para contraste e navegação */
             color: white;
-            padding: 0.5em 0;
             text-align: center;
+            padding: 1em 0;
         }
 
         nav a {
             color: white;
             text-decoration: none;
-            padding: 0.5em 1em;
+            padding: 0.7em 1.5em;
             margin: 0 0.5em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #495057;
         }
 
         .container {
@@ -40,12 +58,13 @@
             padding: 20px;
             background-color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
         .section {
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
+            margin-bottom: 3em;
+            padding-bottom: 2em;
+            border-bottom: 1px solid #dee2e6;
         }
 
         .section:last-child {
@@ -53,35 +72,49 @@
         }
 
         h2 {
-            color: #5cb85c;
+            color: #28a745;
+            margin-bottom: 0.8em;
         }
 
-        .grid-container {
+        .eventos-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
         }
 
-        .card {
-            border: 1px solid #ddd;
+        .evento-card {
+            border: 1px solid #ced4da;
             padding: 15px;
-            border-radius: 5px;
-            background-color: #f9f9f9;
+            border-radius: 6px;
+            background-color: #fff;
         }
 
-        .card img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
+        .evento-card h3 {
+            color: #198754; /* Um tom mais escuro do verde */
+            margin-bottom: 0.5em;
+        }
+
+        .evento-card p {
+            margin-bottom: 0.8em;
+        }
+
+        .galeria {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px 0;
+        }
+
+        .galeria img {
+            max-height: 200px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         footer {
-            background-color: #333;
+            background-color: #343a40;
             color: white;
             text-align: center;
-            padding: 1em 0;
-            position: sticky;
-            bottom: 0;
-            width: 100%;
+            padding: 1.5em 0;
+            border-top: 1px solid #6c757d;
         }

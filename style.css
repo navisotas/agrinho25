@@ -1,77 +1,196 @@
-</head>
-<body>
+        body {
+            font-family: 'Montserrat', sans-serif; /* Fonte moderna para o corpo */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Cinza claro suave */
+            color: #333;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased; /* Melhora a renderização da fonte em navegadores WebKit */
+            -moz-osx-font-smoothing: grayscale; /* Melhora a renderização da fonte no Firefox */
+        }
 
-    <header>
-        <h1>Celebração da Conexão Campo-Cidade</h1>
-        <p>Um encontro de culturas, sabores e oportunidades.</p>
-    </header>
+        header {
+            background-color: #6B8E23; /* Verde oliva, elegante e remetendo ao campo */
+            color: white;
+            padding: 3em 0;
+            text-align: center;
+            margin-bottom: 3em;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://source.unsplash.com/1920x600/?farm,city'); /* Imagem de fundo com efeito */
+            background-size: cover;
+            background-position: center;
+            border-bottom: 5px solid #A0522D; /* Marrom terroso para destacar */
+        }
 
-    <nav>
-        <a href="#sobre">Sobre o Evento</a>
-        <a href="#programacao">Programação</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#contato">Contato</a>
-    </nav>
+        header h1 {
+            font-family: 'Oswald', sans-serif; /* Fonte impactante para o título */
+            font-size: 3em;
+            margin-bottom: 0.6em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no título */
+            letter-spacing: 1px;
+        }
 
-    <div class="container">
-        <section id="sobre" class="section">
-            <h2>Sobre a Celebração</h2>
-            <p>Este evento especial é dedicado a celebrar a rica e essencial conexão entre o campo e a cidade. Reconhecemos a importância mútua dessas duas esferas para o desenvolvimento social, econômico e cultural. Queremos promover um espaço de encontro, aprendizado e apreciação das contribuições de cada um.</p>
-            <p>Teremos atividades que destacam a produção agrícola, o artesanato local, a inovação tecnológica aplicada ao campo, a gastronomia que une ingredientes rurais e urbanos, e as trocas culturais que enriquecem nosso dia a dia.</p>
-        </section>
+        header p {
+            font-size: 1.2em;
+            color: #eee;
+            font-weight: 300;
+        }
 
-        <section id="programacao" class="section">
-            <h2>Programação do Evento</h2>
-            <div class="eventos-grid">
-                <div class="evento-card">
-                    <h3>Feira de Produtos Locais</h3>
-                    <p>Explore uma variedade de produtos frescos do campo e artesanato da cidade.</p>
-                    <p><strong>Horário:</strong> Sábado, das 9h às 17h</p>
-                </div>
-                <div class="evento-card">
-                    <h3>Oficinas Gastronômicas</h3>
-                    <p>Aprenda receitas deliciosas que combinam ingredientes do campo e da cidade.</p>
-                    <p><strong>Horário:</strong> Sábado e Domingo, horários variados</p>
-                </div>
-                <div class="evento-card">
-                    <h3>Palestras e Debates</h3>
-                    <p>Discussões sobre a sustentabilidade na agricultura e o futuro das cidades.</p>
-                    <p><strong>Horário:</strong> Domingo, das 10h às 12h e das 14h às 16h</p>
-                </div>
-                <div class="evento-card">
-                    <h3>Apresentações Culturais</h3>
-                    <p>Música, dança e outras manifestações artísticas que celebram a união.</p>
-                    <p><strong>Horário:</strong> Sábado e Domingo, durante todo o dia</p>
-                </div>
-            </div>
-        </section>
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.2em 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
 
-        <section id="galeria" class="section">
-            <h2>Galeria de Momentos</h2>
-            <p>Confira alguns registros de edições anteriores e do espírito da nossa celebração.</p>
-            <div class="galeria">
-                <img src="https://via.placeholder.com/300/8FBC8F/FFFFFF?Text=Campo" alt="Imagem do Campo">
-                <img src="https://via.placeholder.com/300/4682B4/FFFFFF?Text=Cidade" alt="Imagem da Cidade">
-                <img src="https://via.placeholder.com/300/2E8B57/FFFFFF?Text=Produtos%20Locais" alt="Produtos Locais">
-                <img src="https://via.placeholder.com/300/6495ED/FFFFFF?Text=Gastronomia" alt="Gastronomia">
-                <img src="https://via.placeholder.com/300/556B2F/FFFFFF?Text=Cultura" alt="Cultura">
-            </div>
-        </section>
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.8em 1.8em;
+            margin: 0 0.8em;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            font-weight: 500;
+        }
 
-        <section id="contato" class="section">
-            <h2>Entre em Contato</h2>
-            <p>Para mais informações ou dúvidas, entre em contato conosco:</p>
-            <ul>
-                <li><strong>Email:</strong> contato@conexaocampocidade.com.br</li>
-                <li><strong>Telefone:</strong> (XX) XXXXX-XXXX</li>
-                <li><strong>Redes Sociais:</strong> <a href="#" target="_blank">Instagram</a> | <a href="#" target="_blank">Facebook</a></li>
-            </ul>
-        </section>
-    </div>
+        nav a:hover {
+            background-color: #A0522D; /* Marrom no hover */
+            color: #fff;
+        }
 
-    <footer>
-        <p>&copy; 2025 Celebração Campo-Cidade. Todos os direitos reservados.</p>
-    </footer>
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
 
-</body>
-</html>x
+        .section {
+            margin-bottom: 4em;
+            padding-bottom: 3em;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-family: 'Oswald', sans-serif;
+            color: #6B8E23;
+            font-size: 2.2em;
+            margin-bottom: 1em;
+            border-bottom: 3px solid #6B8E23;
+            padding-bottom: 0.5em;
+        }
+
+        .eventos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+        }
+
+        .evento-card {
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .evento-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .evento-card h3 {
+            color: #556B2F; /* Verde mais escuro */
+            font-size: 1.5em;
+            margin-bottom: 0.7em;
+        }
+
+        .evento-card p {
+            margin-bottom: 1em;
+            color: #555;
+        }
+
+        .evento-card strong {
+            font-weight: bold;
+            color: #444;
+        }
+
+        .galeria {
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+            padding: 20px 0;
+        }
+
+        .galeria img {
+            max-height: 250px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            border-top: 2px solid #555;
+            margin-top: 4em;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        footer a {
+            color: #eee;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #A0522D;
+        }
+
+        /* Responsividade (Melhorias) */
+        @media (max-width: 768px) {
+            header {
+                padding: 2em 0;
+                margin-bottom: 2em;
+            }
+
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            nav a {
+                padding: 0.6em 1.2em;
+                margin: 0 0.4em;
+                font-size: 0.9em;
+            }
+
+            .container {
+                padding: 20px;
+                margin: 20px auto;
+            }
+
+            .eventos-grid {
+                grid-template-columns: 1fr; /* Uma coluna em telas menores */
+            }
+
+            .galeria img {
+                max-height: 180px;
+            }
+        }

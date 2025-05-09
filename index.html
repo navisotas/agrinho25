@@ -4,117 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festejando a Conexão Campo-Cidade</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa; /* Um tom bem claro para dar leveza */
-            color: #333;
-            line-height: 1.6;
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        header {
-            background-color: #28a745; /* Verde vibrante, representando o campo */
-            color: white;
-            padding: 2em 0;
-            text-align: center;
-            margin-bottom: 2em;
-        }
+    <header>
+        <h1>Celebração da Conexão Campo-Cidade</h1>
+        <p>Um encontro de culturas, sabores e oportunidades.</p>
+    </header>
 
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 0.5em;
-        }
+    <nav>
+        <a href="#sobre">Sobre o Evento</a>
+        <a href="#programacao">Programação</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
 
-        header p {
-            font-size: 1.1em;
-            color: #e9ecef;
-        }
+    <div class="container">
+        <section id="sobre" class="section">
+            <h2>Sobre a Celebração</h2>
+            <p>Este evento especial é dedicado a celebrar a rica e essencial conexão entre o campo e a cidade. Reconhecemos a importância mútua dessas duas esferas para o desenvolvimento social, econômico e cultural. Queremos promover um espaço de encontro, aprendizado e apreciação das contribuições de cada um.</p>
+            <p>Teremos atividades que destacam a produção agrícola, o artesanato local, a inovação tecnológica aplicada ao campo, a gastronomia que une ingredientes rurais e urbanos, e as trocas culturais que enriquecem nosso dia a dia.</p>
+        </section>
 
-        nav {
-            background-color: #343a40; /* Tom escuro para contraste e navegação */
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
+        <section id="programacao" class="section">
+            <h2>Programação do Evento</h2>
+            <div class="eventos-grid">
+                <div class="evento-card">
+                    <h3>Feira de Produtos Locais</h3>
+                    <p>Explore uma variedade de produtos frescos do campo e artesanato da cidade.</p>
+                    <p><strong>Horário:</strong> Sábado, das 9h às 17h</p>
+                </div>
+                <div class="evento-card">
+                    <h3>Oficinas Gastronômicas</h3>
+                    <p>Aprenda receitas deliciosas que combinam ingredientes do campo e da cidade.</p>
+                    <p><strong>Horário:</strong> Sábado e Domingo, horários variados</p>
+                </div>
+                <div class="evento-card">
+                    <h3>Palestras e Debates</h3>
+                    <p>Discussões sobre a sustentabilidade na agricultura e o futuro das cidades.</p>
+                    <p><strong>Horário:</strong> Domingo, das 10h às 12h e das 14h às 16h</p>
+                </div>
+                <div class="evento-card">
+                    <h3>Apresentações Culturais</h3>
+                    <p>Música, dança e outras manifestações artísticas que celebram a união.</p>
+                    <p><strong>Horário:</strong> Sábado e Domingo, durante todo o dia</p>
+                </div>
+            </div>
+        </section>
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 0.7em 1.5em;
-            margin: 0 0.5em;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
+        <section id="galeria" class="section">
+            <h2>Galeria de Momentos</h2>
+            <p>Confira alguns registros de edições anteriores e do espírito da nossa celebração.</p>
+            <div class="galeria">
+                <img src="https://via.placeholder.com/300/8FBC8F/FFFFFF?Text=Campo" alt="Imagem do Campo">
+                <img src="https://via.placeholder.com/300/4682B4/FFFFFF?Text=Cidade" alt="Imagem da Cidade">
+                <img src="https://via.placeholder.com/300/2E8B57/FFFFFF?Text=Produtos%20Locais" alt="Produtos Locais">
+                <img src="https://via.placeholder.com/300/6495ED/FFFFFF?Text=Gastronomia" alt="Gastronomia">
+                <img src="https://via.placeholder.com/300/556B2F/FFFFFF?Text=Cultura" alt="Cultura">
+            </div>
+        </section>
 
-        nav a:hover {
-            background-color: #495057;
-        }
+        <section id="contato" class="section">
+            <h2>Entre em Contato</h2>
+            <p>Para mais informações ou dúvidas, entre em contato conosco:</p>
+            <ul>
+                <li><strong>Email:</strong> contato@conexaocampocidade.com.br</li>
+                <li><strong>Telefone:</strong> (XX) XXXXX-XXXX</li>
+                <li><strong>Redes Sociais:</strong> <a href="#" target="_blank">Instagram</a> | <a href="#" target="_blank">Facebook</a></li>
+            </ul>
+        </section>
+    </div>
 
-        .container {
-            max-width: 960px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
+    <footer>
+        <p>&copy; 2025 Celebração Campo-Cidade. Todos os direitos reservados.</p>
+    </footer>
 
-        .section {
-            margin-bottom: 3em;
-            padding-bottom: 2em;
-            border-bottom: 1px solid #dee2e6;
-        }
-
-        .section:last-child {
-            border-bottom: none;
-        }
-
-        h2 {
-            color: #28a745;
-            margin-bottom: 0.8em;
-        }
-
-        .eventos-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .evento-card {
-            border: 1px solid #ced4da;
-            padding: 15px;
-            border-radius: 6px;
-            background-color: #fff;
-        }
-
-        .evento-card h3 {
-            color: #198754; /* Um tom mais escuro do verde */
-            margin-bottom: 0.5em;
-        }
-
-        .evento-card p {
-            margin-bottom: 0.8em;
-        }
-
-        .galeria {
-            display: flex;
-            overflow-x: auto;
-            gap: 10px;
-            padding: 10px 0;
-        }
-
-        .galeria img {
-            max-height: 200px;
-            border-radius: 4px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            background-color: #343a40;
-            color: white;
-            text-align: center;
-            padding: 1.5em 0;
-            border-top: 1px solid #6c757d;
-        }
+</body>
+</html>
